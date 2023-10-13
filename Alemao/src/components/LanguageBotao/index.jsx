@@ -1,10 +1,10 @@
+import { useTranslation } from 'react-i18next'; // Importa o hook useTranslation do react-i18next.
+import './LanguageBotao.css'; // Importa estilos CSS para o componente.
+import br from './assets/br.png'; // Importa a bandeira brasileira como um ícone.
+import us from './assets/us.png'; // Importa a bandeira dos EUA como um ícone.
+import de from './assets/de.png'; // Importa a bandeira alemã como um ícone.
 
-import { useTranslation } from 'react-i18next'
-import './LanguageBotao.css';
-import br from './assets/br.png'
-import us from './assets/us.png'
-import dt from './assets/dt.png'
-
+// Define um array de opções de idioma com suas respectivas bandeiras.
 const languageOption = [
     {
         name: "Portugues",
@@ -17,29 +17,28 @@ const languageOption = [
         flag: us
     },
     {
-        name: "Deutshe",
-        value: "dt",
-        flag: dt
+        name: "Deutsche",
+        value: "de",
+        flag: de
     },
 ]
 
+// Exporta o componente LanguageBotao como uma função anônima.
 export const LanguageBotao = () => {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation(); // Inicializa o hook useTranslation para obter as funções de tradução e i18n.
+
     return (
-
         <div className='language-botao'>
-
             {languageOption.map(languageOption => (
                 <button
                     key={languageOption.value}
                     onClick={() => {
-                        i18n.changeLanguage(languageOption.value)
+                        i18n.changeLanguage(languageOption.value); // Altera o idioma do aplicativo quando o botão é clicado.
                     }}
                 >
-                    <img src={languageOption.flag} alt={languageOption.neme}></img>
+                    <img src={languageOption.flag} alt={languageOption.name}></img> {/* Exibe a bandeira do idioma com o nome correspondente. */}
                 </button>
             ))}
         </div>
-
-    )
+    );
 }
