@@ -1,0 +1,10 @@
+button {
+    border: none;
+    background: #F2F2F2;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  button:focus{
+    background-color: #D8D9D7;
+  }

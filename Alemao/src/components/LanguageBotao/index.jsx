@@ -1,18 +1,25 @@
 
 import { useTranslation } from 'react-i18next'
-import br from './assets/br.svg'
-import us from './assets/us.svg'
+import './LanguageBotao.css';
+import br from './assets/br.png'
+import us from './assets/us.png'
+import dt from './assets/dt.png'
 
 const languageOption = [
     {
         name: "Portugues",
         value: "ptBR",
-        flag: br,
+        flag: br
     },
     {
         name: "English",
         value: "en",
-        flag: us,
+        flag: us
+    },
+    {
+        name: "Deutshe",
+        value: "dt",
+        flag: dt
     },
 ]
 
@@ -21,19 +28,15 @@ export const LanguageBotao = () => {
     return (
 
         <div className='language-botao'>
-            <span>{t('selectYourLanguage')}</span>
-        
+
             {languageOption.map(languageOption => (
                 <button
                     key={languageOption.value}
                     onClick={() => {
                         i18n.changeLanguage(languageOption.value)
                     }}
-                
-                
                 >
-                    <img src={languageOption.flag} alt={languageOption.name}/>
-                    <span>{languageOption.name}</span>
+                    <img src={languageOption.flag} alt={languageOption.neme}></img>
                 </button>
             ))}
         </div>
