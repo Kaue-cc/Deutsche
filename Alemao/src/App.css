@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/bandeira.png');
+    background-image: url('../public/img/bandeira.png');
     background-size: cover;
     /* Isso ajustará a imagem ao tamanho da tela */
     background-repeat: no-repeat;
