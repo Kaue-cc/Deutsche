@@ -1,6 +1,47 @@
+body {
+    background-image: url('./img/bandeira.png');
+    background-size: cover;
+    /* Isso ajustará a imagem ao tamanho da tela */
+    background-repeat: no-repeat;
+    /* Isso impedirá que a imagem se repita */
+    
+}
+
 .App-header {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.culturaDIV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.culturaDivConteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+
+.culturaDivConteudo h3{
+    width: auto;
+    font-size: 25px;
+    background-color: rgba(255, 0, 4, 0.053);
+    padding: 2.5rem;
+    height: auto;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.culturaDivConteudo img{
+    border-radius: 10px;
 }

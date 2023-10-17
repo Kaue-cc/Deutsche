@@ -8,7 +8,7 @@ import deJson from './translations/de.json'
 // Inicialização da biblioteca de internacionalização i18n
 i18n.use(initReactI18next).init({
     // Idioma de fallback, usado quando a tradução em um idioma específico não está disponível
-    fallbackLng: "en",
+    fallbackLng: "ptBR",
     interpolation: {
         escapeValue: false,
     },
