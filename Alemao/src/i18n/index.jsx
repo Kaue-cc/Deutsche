@@ -1,9 +1,9 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import enJson from './translations/en.json'
-import ptBRJson from './translations/ptBR.json'
-import deJson from './translations/de.json'
+import enJson from './traducoes/en.json'
+import ptBRJson from './traducoes/ptBR.json'
+import deJson from './traducoes/de.json'
 
 // Inicialização da biblioteca de internacionalização i18n
 i18n.use(initReactI18next).init({

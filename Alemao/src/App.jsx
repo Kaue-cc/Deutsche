@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import React from 'react';
-import { LanguageBotao } from "./components/LanguageBotao";
+import { LinguagemBotao } from "./components/LinguagemBotao";
 import "./App.css"
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <LanguageBotao />
+        <LinguagemBotao />
         <h1>{t("welcome")}</h1>
       </header>
       <main>

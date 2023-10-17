@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'; // Importa o hook useTranslation do react-i18next.
-import './LanguageBotao.css'; // Importa estilos CSS para o componente.
+import './LinguagemBotao.css'; // Importa estilos CSS para o componente.
 import br from './assets/br.png'; // Importa a bandeira brasileira como um ícone.
 import us from './assets/us.png'; // Importa a bandeira dos EUA como um ícone.
 import de from './assets/de.png'; // Importa a bandeira alemã como um ícone.
@@ -23,8 +23,8 @@ const languageOption = [
     },
 ]
 
-// Exporta o componente LanguageBotao como uma função anônima.
-export const LanguageBotao = () => {
+// Exporta o componente LinguagemBotao como uma função anônima.
+export const LinguagemBotao = () => {
     const { t, i18n } = useTranslation(); // Inicializa o hook useTranslation para obter as funções de tradução e i18n.
 
     return (
