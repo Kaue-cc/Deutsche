@@ -18,6 +18,9 @@ const App = () => {
       <main>
 
         <div className="imgCultura">
+          <h1 className="Titulo">
+            {t("Titulo")}
+          </h1>
           <h1 className="culturaTitulo">
             {t("culturaTitulo")}
           </h1>
