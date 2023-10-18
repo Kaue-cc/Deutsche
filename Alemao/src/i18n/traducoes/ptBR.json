@@ -1,7 +1,13 @@
 {
     "translation": {
+
         "welcome": "Bem vindo a Alemanha",
+
         "culturaTitulo": "Cultura da Alemanha",
-        "culturaTexto": "A cultura alemã valoriza a família e a comunidade, com ênfase na conformidade com as regras para criar um ambiente agradável. A cerveja desempenha um papel central na cultura, com uma ampla variedade de estilos e tradições cervejeiras que remontam a séculos. A comida alemã é conhecida por suas salsichas, chucrute, pretzels, sopas, tortas e queijos, com a tradição do 'Kaffee und Kuchen' de café e bolo. A rica culinária alemã é uma parte importante das celebrações e festas ao longo do ano, e cada região tem suas próprias especialidades."
+        "culturaTexto": "A cultura alemã valoriza a família e a comunidade, com ênfase na conformidade com as regras para criar um ambiente agradável. A cerveja desempenha um papel central na cultura, com uma ampla variedade de estilos e tradições cervejeiras que remontam a séculos. A comida alemã é conhecida por suas salsichas, chucrute, pretzels, sopas, tortas e queijos, com a tradição do 'Kaffee und Kuchen' de café e bolo. A rica culinária alemã é uma parte importante das celebrações e festas ao longo do ano, e cada região tem suas próprias especialidades.",
+        
+        "turismoTitulo": "Pontos Turísticos da Alemanha",
+        "turismoTexto": "A Alemanha é rica em pontos turísticos, incluindo o Castelo de Neuschwanstein, o Muro de Berlim, o Portão de Brandemburgo, a Catedral de Colônia, o Castelo de Heidelberg, a Floresta Negra, o Museu Pergamon, a Catedral de Dresden, o Rio Reno, a Selva de Pedra de Frankfurt, Bamberg, o Castelo de Wartburg, o Parque Nacional de Berchtesgaden, Hamburgo e a Rota Romântica. Esses locais oferecem uma mistura de história, cultura, paisagens naturais e arquitetura, atraindo visitantes de todo o mundo."
+    
     }
 }

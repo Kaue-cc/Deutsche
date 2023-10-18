@@ -1,10 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+}
+
+:root {
+    --font--titulo: 'Sriracha', cursive;
+}
+
+/*
 body {
     background-image: url('../public/img/bandeira.png');
     background-size: cover;
-    /* Isso ajustará a imagem ao tamanho da tela */
+     *Isso ajustará a imagem ao tamanho da tela*
     background-repeat: no-repeat;
-    /* Isso impedirá que a imagem se repita */
-    
+     *Isso impedirá que a imagem se repita*
+}
+*/
+
+.imgCultura {
+    background: url("../public/img/culturaAlema3.jpg") fixed center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.culturaTitulo {
+    font-family: var(--font--titulo);
+    font-size: 80px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 1rem;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .App-header {
@@ -24,6 +56,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 1000px;
 }
 
 .culturaDivConteudo {
@@ -43,5 +77,57 @@ main {
 }
 
 .culturaDivConteudo img{
+    border-radius: 10px;
+    height: 500px;
+    width: auto;
+}
+
+/* Turismo */
+
+.imgTurismo {
+    background: url("../public/img/teste.jpg") fixed center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.turismoTitulo {
+    font-family: var(--font--titulo);
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 1rem;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.turismoDIV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.turismoDivConteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+
+.turismoDivConteudo h3{
+    width: auto;
+    font-size: 25px;
+    background-color: rgba(255, 251, 0, 0.219);
+    padding: 2.5rem;
+    height: auto;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.turismoDivConteudo img{
     border-radius: 10px;
 }
