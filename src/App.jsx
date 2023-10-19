@@ -11,8 +11,10 @@ const App = () => {
     <div className="App">
 
       <header className="App-header">
+
         <LinguagemBotao />
         <h1>{t("welcome")}</h1>
+        
       </header>
 
       <main>
