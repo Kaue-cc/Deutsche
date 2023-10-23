@@ -11,7 +11,7 @@
 .imgCultura {
     background: url("../public/img/culturaAlema3.jpg") fixed center;
     background-size: cover;
-    height: 725px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,6 +79,8 @@ main {
 
 .culturaDivConteudo img{
     border-radius: 10px;
+    height: 300px;
+
 }
 
 /* Turismo */
@@ -128,4 +130,6 @@ main {
 
 .turismoDivConteudo img{
     border-radius: 10px;
+    height: 300px;
 }
+
