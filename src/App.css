@@ -199,7 +199,7 @@ main {
 .imgMe {
     background: url("../public/img/me.jpg") fixed center;
     background-size: cover;
-    height: 400px;
+    height: 575px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,30 +218,41 @@ main {
 
 .MeDIV {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .MeDivConteudo {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 2rem;
 }
 
-.MeDivConteudo h3{
+.MeTeste {
+    background: url("../public/img/me.jpg") fixed center;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.MeTeste h3{
     width: auto;
     font-size: 22px;
-    background-color: rgba(0, 0, 0, 0.219);
-    padding: 2.5rem;
+    padding: 1rem;
     height: auto;
     border-radius: 25px;
     margin: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.668);
     font-family: var(--font--texto);
-    font-weight: 300;
+    font-weight: 600;
 }
 
-.MeDivConteudo img{
-    border-radius: 10px;
-    height: 300px;
+.icon {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
 }

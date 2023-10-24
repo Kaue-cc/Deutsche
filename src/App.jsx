@@ -1,6 +1,11 @@
 import { useTranslation } from "react-i18next";
 import React from 'react';
 import { LinguagemBotao } from "./components/LinguagemBotao";
+
+import Instagram from './assets/instagram.svg';
+import Linkedin from './assets/linkedin.svg';
+import Github from './assets/github.svg';
+
 import "./App.css"
 
 const App = () => {
@@ -14,7 +19,7 @@ const App = () => {
 
         <LinguagemBotao />
         <h1>{t("welcome")}</h1>
-        
+
       </header>
 
       <main>
@@ -69,8 +74,15 @@ const App = () => {
 
         <div className="MeDIV">
           <div className="MeDivConteudo">
-            <img src="./img/choop2.jpg"></img>
-            <h3>{t("meTexto")}</h3>
+            <div className="MeTeste">
+              <h3>{t("meTexto")}</h3>
+            </div>
+            <icons />
+            <ul class="wrapper">
+              <a href="https://www.instagram.com/3am.kaue/"><img src={Instagram} alt="Ícone SVG" className="icon" /></a>
+              <a href="https://www.linkedin.com/in/kau%C3%AA-corr%C3%AAa-colling-7a31ba291"><img src={Linkedin} alt="Ícone SVG" className="icon" /></a>
+              <a href="https://github.com/Kaue-cc"><img src={Github} alt="Ícone SVG" className="icon" /></a>
+            </ul>
           </div>
         </div>
 
