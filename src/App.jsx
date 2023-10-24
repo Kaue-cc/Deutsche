@@ -61,6 +61,19 @@ const App = () => {
           </div>
         </div>
 
+        <div className="imgMe">
+          <h1 className="MeTitulo">
+            {t("meTitulo")}
+          </h1>
+        </div>
+
+        <div className="MeDIV">
+          <div className="MeDivConteudo">
+            <img src="./img/choop2.jpg"></img>
+            <h3>{t("meTexto")}</h3>
+          </div>
+        </div>
+
       </main>
 
     </div>
