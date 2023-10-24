@@ -48,6 +48,19 @@ const App = () => {
           </div>
         </div>
 
+        <div className="imgOktober">
+          <h1 className="OktoberTitulo">
+            {t("oktoberTitulo")}
+          </h1>
+        </div>
+
+        <div className="OktoberDIV">
+          <div className="OktoberDivConteudo">
+            <img src="./img/choop2.jpg"></img>
+            <h3>{t("oktoberTexto")}</h3>
+          </div>
+        </div>
+
       </main>
 
     </div>

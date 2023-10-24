@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
 * {
     margin: 0;
@@ -6,6 +7,7 @@
 
 :root {
     --font--titulo: 'Sriracha', cursive;
+    --font--texto: 'Montserrat', sans-serif;
 }
 
 .imgCultura {
@@ -70,11 +72,14 @@ main {
 
 .culturaDivConteudo h3{
     width: auto;
-    font-size: 20px;
+    font-size: 22px;
     background-color: rgba(255, 251, 0, 0.219);
     padding: 2.5rem;
     height: auto;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 25px;
+    margin: 1rem;
+    font-family: var(--font--texto);
+    font-weight: 300;
 }
 
 .culturaDivConteudo img{
@@ -121,11 +126,14 @@ main {
 
 .turismoDivConteudo h3{
     width: auto;
-    font-size: 20px;
-    background-color: rgba(255, 251, 0, 0.219);
+    font-size: 22px;
+    background-color: rgba(255, 0, 0, 0.219);
     padding: 2.5rem;
     height: auto;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 25px;
+    margin: 1rem;
+    font-family: var(--font--texto);
+    font-weight: 300;
 }
 
 .turismoDivConteudo img{
@@ -133,3 +141,55 @@ main {
     height: 300px;
 }
 
+/* Oktoberfest */
+
+.imgOktober {
+    background: url("../public/img/choop.jpg") fixed center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.OktoberTitulo {
+    font-family: var(--font--titulo);
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.OktoberDIV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OktoberDivConteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+
+.OktoberDivConteudo h3{
+    width: auto;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.219);
+    padding: 2.5rem;
+    height: auto;
+    border-radius: 25px;
+    margin: 1rem;
+    font-family: var(--font--texto);
+    font-weight: 300;
+}
+
+.OktoberDivConteudo img{
+    border-radius: 10px;
+    height: 300px;
+}
