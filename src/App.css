@@ -58,7 +58,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 500px;
 }
 
 .culturaDivConteudo {
@@ -70,7 +70,7 @@ main {
 
 .culturaDivConteudo h3{
     width: auto;
-    font-size: 25px;
+    font-size: 20px;
     background-color: rgba(255, 251, 0, 0.219);
     padding: 2.5rem;
     height: auto;
@@ -121,7 +121,7 @@ main {
 
 .turismoDivConteudo h3{
     width: auto;
-    font-size: 25px;
+    font-size: 20px;
     background-color: rgba(255, 251, 0, 0.219);
     padding: 2.5rem;
     height: auto;
