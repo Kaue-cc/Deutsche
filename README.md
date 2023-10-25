@@ -2,7 +2,7 @@
 
 site: alemanha.valdete-vercel.app
 
-<a href="alemanha-valdete.vercel.app"> link do site </a>
+<a href="https://alemanha-valdete.vercel.app/"></a>
 
 Código feito por Kaue.
 
