@@ -3,6 +3,7 @@ import './LinguagemBotao.css'; // Importa estilos CSS para o componente.
 import br from './assets/br.png'; // Importa a bandeira brasileira como um ícone.
 import us from './assets/us.png'; // Importa a bandeira dos EUA como um ícone.
 import de from './assets/de.png'; // Importa a bandeira alemã como um ícone.
+import { useEffect } from 'react';
 
 // Define um array de opções de idioma com suas respectivas bandeiras.
 const languageOption = [
@@ -26,6 +27,11 @@ const languageOption = [
 // Exporta o componente LinguagemBotao como uma função anônima.
 export const LinguagemBotao = () => {
     const { t, i18n } = useTranslation(); // Inicializa o hook useTranslation para obter as funções de tradução e i18n.
+
+    // Use useEffect para atualizar o título da página sempre que o idioma for alterado
+    useEffect(() => {
+        document.title = t('appTitle'); // 'appTitle' é uma chave que você deve ter definido em suas traduções
+    }, [i18n.language, t]);
 
     return (
         <div className='language-botao'>
